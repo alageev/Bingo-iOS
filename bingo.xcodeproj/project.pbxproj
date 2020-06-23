@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0EAFDB24A2A43300632495 /* BingoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0EAFDA24A2A43300632495 /* BingoDownloader.swift */; };
 		6F85FCBA24827E1A00E4EA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCB924827E1A00E4EA62 /* AppDelegate.swift */; };
 		6F85FCBC24827E1A00E4EA62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCBB24827E1A00E4EA62 /* SceneDelegate.swift */; };
 		6F85FCBE24827E1A00E4EA62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCBD24827E1A00E4EA62 /* ContentView.swift */; };
 		6F85FCC024827E1D00E4EA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F85FCBF24827E1D00E4EA62 /* Assets.xcassets */; };
 		6F85FCC324827E1D00E4EA62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F85FCC224827E1D00E4EA62 /* Preview Assets.xcassets */; };
 		6F85FCC624827E1D00E4EA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F85FCC424827E1D00E4EA62 /* LaunchScreen.storyboard */; };
-		6F85FCD024827E4400E4EA62 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCCD24827E4300E4EA62 /* ProfileView.swift */; };
 		6F85FCD124827E4400E4EA62 /* BingoSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCCE24827E4400E4EA62 /* BingoSelect.swift */; };
 		6F85FCD224827E4400E4EA62 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCCF24827E4400E4EA62 /* GameView.swift */; };
-		6F85FCD72482BCF400E4EA62 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F85FCD62482BCF400E4EA62 /* FriendsView.swift */; };
+		6F9BB9CE24A26DEB00D1B545 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9BB9CD24A26DEB00D1B545 /* GameCell.swift */; };
+		6FC5990A24A276A000DFB0A5 /* BingoSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC5990924A276A000DFB0A5 /* BingoSet.swift */; };
+		6FC5990C24A2776C00DFB0A5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC5990B24A2776C00DFB0A5 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F0EAFDA24A2A43300632495 /* BingoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoDownloader.swift; sourceTree = "<group>"; };
 		6F85FCB624827E1A00E4EA62 /* Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F85FCB924827E1A00E4EA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F85FCBB24827E1A00E4EA62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +31,12 @@
 		6F85FCC224827E1D00E4EA62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F85FCC524827E1D00E4EA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F85FCC724827E1D00E4EA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F85FCCD24827E4300E4EA62 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6F85FCCE24827E4400E4EA62 /* BingoSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingoSelect.swift; sourceTree = "<group>"; };
 		6F85FCCF24827E4400E4EA62 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		6F85FCD62482BCF400E4EA62 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		6F9BB9CD24A26DEB00D1B545 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		6F9BB9CF24A2730100D1B545 /* bingoExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bingoExample.json; sourceTree = "<group>"; };
+		6FC5990924A276A000DFB0A5 /* BingoSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoSet.swift; sourceTree = "<group>"; };
+		6FC5990B24A2776C00DFB0A5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,14 +50,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0EAFD824A2A18000632495 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F9BB9CF24A2730100D1B545 /* bingoExample.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F0EAFDC24A2A96800632495 /* Helping Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F9BB9CD24A26DEB00D1B545 /* GameCell.swift */,
+			);
+			path = "Helping Views";
+			sourceTree = "<group>";
+		};
 		6F6794AC248313D800E25F54 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6F85FCBD24827E1A00E4EA62 /* ContentView.swift */,
-				6F85FCCD24827E4300E4EA62 /* ProfileView.swift */,
 				6F85FCCE24827E4400E4EA62 /* BingoSelect.swift */,
 				6F85FCCF24827E4400E4EA62 /* GameView.swift */,
-				6F85FCD62482BCF400E4EA62 /* FriendsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,8 +94,12 @@
 		6F85FCB824827E1A00E4EA62 /* bingo */ = {
 			isa = PBXGroup;
 			children = (
+				6F0EAFDC24A2A96800632495 /* Helping Views */,
+				6F0EAFD824A2A18000632495 /* Resources */,
+				6FC5990D24A2777400DFB0A5 /* Models */,
 				6F85FCB924827E1A00E4EA62 /* AppDelegate.swift */,
 				6F85FCBB24827E1A00E4EA62 /* SceneDelegate.swift */,
+				6F85FCBD24827E1A00E4EA62 /* ContentView.swift */,
 				6F6794AC248313D800E25F54 /* Views */,
 				6F85FCBF24827E1D00E4EA62 /* Assets.xcassets */,
 				6F85FCC424827E1D00E4EA62 /* LaunchScreen.storyboard */,
@@ -93,6 +115,16 @@
 				6F85FCC224827E1D00E4EA62 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FC5990D24A2777400DFB0A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FC5990924A276A000DFB0A5 /* BingoSet.swift */,
+				6FC5990B24A2776C00DFB0A5 /* Data.swift */,
+				6F0EAFDA24A2A43300632495 /* BingoDownloader.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +159,7 @@
 					bingosets,
 				);
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Alexey Ageev";
 				TargetAttributes = {
 					6F85FCB524827E1A00E4EA62 = {
@@ -171,12 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F85FCD72482BCF400E4EA62 /* FriendsView.swift in Sources */,
+				6FC5990C24A2776C00DFB0A5 /* Data.swift in Sources */,
+				6F0EAFDB24A2A43300632495 /* BingoDownloader.swift in Sources */,
 				6F85FCD124827E4400E4EA62 /* BingoSelect.swift in Sources */,
-				6F85FCD024827E4400E4EA62 /* ProfileView.swift in Sources */,
+				6F9BB9CE24A26DEB00D1B545 /* GameCell.swift in Sources */,
 				6F85FCBA24827E1A00E4EA62 /* AppDelegate.swift in Sources */,
 				6F85FCBC24827E1A00E4EA62 /* SceneDelegate.swift in Sources */,
 				6F85FCD224827E4400E4EA62 /* GameView.swift in Sources */,
+				6FC5990A24A276A000DFB0A5 /* BingoSet.swift in Sources */,
 				6F85FCBE24827E1A00E4EA62 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +255,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -281,6 +316,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
